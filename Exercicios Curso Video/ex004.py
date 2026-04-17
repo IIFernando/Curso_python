@@ -1,0 +1,10 @@
+texto = input('Digitel algo: ')
+
+print(f'O tipo primitivo desse valor é {type(texto)}')
+print(f'Só tem espaços? {texto.isspace()}')
+print(f'É um número? {texto.isnumeric()}')
+print(f'É alfabético? {texto.isalpha()}')
+print(f'É alfranumérico? {texto.isalnum()}')
+print(f'Está em maiúsculas? {texto.isupper()}')
+print(f'Está em minúsculas? {texto.islower()}')
+print(f'Está capitalizada? {texto.istitle()}')
